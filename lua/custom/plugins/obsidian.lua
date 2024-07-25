@@ -154,6 +154,5 @@ return {
       -- vertical split, or replacing the current buffer (default)
       -- Accepted values are "current", "hsplit" and "vsplit"
       open_notes_in = 'current',
-    })
-  end,
+    }
 }
