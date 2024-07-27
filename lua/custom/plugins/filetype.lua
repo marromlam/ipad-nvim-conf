@@ -55,6 +55,29 @@ return {
     'chrisbra/csv.vim',
     ft = 'csv',
   },
+
+  -- {
+  --   -- vimtex
+  --   'lervag/vimtex',
+  --   ft = { 'tex' },
+  --   -- config = function() require('custom.config.vimtex').config() end,
+  -- },
+  -- {
+  --   'marromlam/tex-kitty',
+  -- enable = not vim.g.is_ipad,
+  --   disable = false,
+  --   ft = 'tex',
+  --   dir = '/Users/marcos/Projects/personal/tex-kitty',
+  --   dev = true,
+  --   dependencies = {
+  --     'lervag/vimtex',
+  --   },
+  --   config = function()
+  --     require('tex-kitty').setup({
+  --       tex_kitty_preview = 1,
+  --     })
+  --   end,
+  -- },
 }
 
 -- vim: fdm=marker
